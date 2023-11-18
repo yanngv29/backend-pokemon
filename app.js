@@ -3,11 +3,11 @@
 /**
  * Module dependencies.
  */
-
+require('dotenv').config();
 var app = require('./loaders/express');
 var debug = require('debug')('backend:server');
 var http = require('http');
-require('dotenv').config();
+
 /**
  * Get port from environment and store in Express.
  */
@@ -84,6 +84,9 @@ function onError(error) {
 function onListening() {
   var addr = server.address();
   var bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port;
-  console.log('Listening on ' + bind);
+  //console.log('Listening on ' + bind);
   debug('Listening on ' + bind);
+  
+  
+
 }

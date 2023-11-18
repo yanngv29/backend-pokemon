@@ -1,7 +1,9 @@
 
 'use strict';
 
+const users = require("../../models/users");
+
 
 exports.getAll = (req, res, next) => {
-    res.send('respond with a resource');
+  return res.status(200).json(users);
   };

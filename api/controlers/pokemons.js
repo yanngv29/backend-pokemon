@@ -1,6 +1,14 @@
 'use strict';
 
 const pokedex = require('../../models/pokemons');
+
+/*
+function getAll(req, res, next)  {
+  return res.status(200).json(pokedex);
+}; 
+exports.getAll = getAll;
+*/
+
 exports.getAll = (req, res, next) => {
     return res.status(200).json(pokedex);
   };
