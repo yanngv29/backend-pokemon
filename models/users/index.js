@@ -1,2 +1,2 @@
 
-module.exports  = require("./types.json")
+module.exports  = require("./users.json")

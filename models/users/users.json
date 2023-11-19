@@ -4,7 +4,6 @@
     "email": "user@example.com",
     "pwd": "password",
     "salt" : "1234567890"
-
   }
   
 ]

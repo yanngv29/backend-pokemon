@@ -5,3 +5,9 @@ V1 du TP avec les pokémons
 - premiers ajouts de dépendances
 
 Les versions suivantes sont sur d'autres branches.
+
+
+V2 du TP
+
+ - ajout connexion à la BDD
+ 
