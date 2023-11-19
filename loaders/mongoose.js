@@ -5,8 +5,7 @@ const mongoose = require('mongoose');
 const { mongo } = require('../config');
 var debug = require('debug')('backend:loaders:mongoose');
 
-// set mongoose Promise to Bluebird
-mongoose.Promise = Promise;
+
 // setting strictQuery to false to be ready for mongoose 7
 mongoose.set('strictQuery', false);
 
